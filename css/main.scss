@@ -1,0 +1,659 @@
+*{
+	font-family: 'Roboto', serif;
+}
+
+/*UTILITIES*/
+.mgb-10{
+	margin-bottom: 10%
+}
+.mgb-2{
+	margin-bottom: 2%
+}
+.mgt-2{
+	margin-top: 2%;
+}
+.blak{
+	color:black;
+}
+$grisazul: #5D6672;
+
+/*........................................MIXIN..........................................*/
+
+@mixin sub ($colorsub, $clin){	/*tamanio de texto y linea bajo los subtitulos*/
+	h1{
+		font-size: 4em;
+		font-family: 'Roboto';
+    	font-weight: 400;
+    	text-align: center;
+    	color: $colorsub;
+    }
+    .style-line{
+    height: 30px;
+    border-style: solid;
+    border-color: $clin;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width: 30%
+	}
+	.style-line:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: $clin;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+	}
+}
+
+@mixin cuadros ($colorc){		/*para hacer los cuadros de colores*/
+	display: inline-block;
+	width: 14%;
+	height:150px;
+	margin-left: -1%;
+	background-color: $colorc;
+	text-align: center;
+	overflow: hidden;
+}
+
+@mixin boxs ($bx){
+	border: 2px solid $bx;
+	margin-top: -15%;
+}
+@mixin boton ($margen){
+	background: #555555 !important;
+	border: none !important;
+	color: white !important;
+	margin:($margen);
+}
+/* ------------------------------barra de navegacion-------------------------- */
+.text-white{
+	color: white !important;
+}
+.bg-verde{
+	background-color:#27AD60;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+	color: #fff;
+	background-color: green !important;
+}
+.navbar-nav{
+ 	margin-top: 1em !important;
+ }
+.navbar-default .navbar-nav > li > a:hover {
+    color: #C9C9C9 !important;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: green !important;
+}
+/*-------------------------------------------------------------------------------*/
+
+#banner {
+	background-image: url(../img/carousel-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0 -120px;
+}
+.cuad{
+	text-align: center;
+	color:white;
+	margin:5% 5%;
+	h1{
+		font-size: 5em;
+		font-family: 'Roboto';
+    	font-weight: 400;
+	}
+	h2{
+		font-size: 2em;
+		font-family: 'Roboto';
+    	font-weight: 300;
+	}
+}
+#palette {
+	@include sub (black, grey);
+	.c1 {
+		@include cuadros (#69D2E7);
+	}
+	.c2 {
+		@include cuadros (#A7DBDB);
+	}
+	.c3 {
+		@include cuadros (#E0E4CC);
+	}
+	.c4 {
+		@include cuadros (#f38630);
+	}
+	.c5 {
+		@include cuadros (#FA6900);
+	}
+}
+#palette {
+	@include sub (black, grey);
+	.c6 {
+		@include cuadros (#E94C6F);
+	}
+	.c7 {
+		@include cuadros (#542733);
+	}
+	.c8 {
+		@include cuadros (#546A62);
+	}
+	.c9 {
+		@include cuadros (#C6D5CD);
+	}
+	.c0 {
+		@include cuadros (#FDF200);
+	}
+}
+#palette {
+	@include sub (black, grey);
+	.c11 {
+		@include cuadros (#DB3340);
+	}
+	.c12 {
+		@include cuadros (#E8B71A);
+	}
+	.c13 {
+		@include cuadros (#F7EAC8);
+	}
+	.c14 {
+		@include cuadros (#1FDA9A);
+	}
+	.c15 {
+		@include cuadros (#28ABE3);
+	}
+}
+#palette {
+
+	.c16 {
+		@include cuadros (#588C73);
+	}
+	.c17 {
+		@include cuadros (#F2E394);
+	}
+	.c18 {
+		@include cuadros (#F2AE72);
+	}
+	.c19 {
+		@include cuadros (#D96459);
+	}
+	.c20 {
+		@include cuadros (#8C4646);
+	}
+}
+#palette {
+
+	.c21 {
+		@include cuadros (#D0C91F);
+	}
+	.c22 {
+		@include cuadros (#85C4B9);
+	}
+	.c23 {
+		@include cuadros (#008BBA);
+	}
+	.c24 {
+		@include cuadros (#DF514C);
+	}
+	.c25 {
+		@include cuadros (#DC403B);
+	}
+}
+/*.....................................................ABOUT US.................................*/
+#about-us{
+	background-color:#2C3E50;
+	color:white;
+	padding: 70px 0;
+	@include sub (white, white);
+}
+.block-bar{
+    padding: 45px 9px;
+	.progress{
+		height: 15px;
+		border-radius:0;
+		border: solid white;
+		margin-bottom: 10px;
+		p{
+			margin-bottom:15px;
+		}
+	}
+	.progress-bar{
+		background-color:#E67E22;
+	}
+}
+.block-image{
+	padding: 40px 55px;
+    .bars{
+        padding-top: 50px;
+    }
+}
+/*.......................................................WHAT WE DO..................................*/
+.bg-green{
+	background-color:#27AD60;
+	color:white;
+}
+#sect-1a, #sect-1b{
+	text-align: center;
+    padding: 70px 0;
+	@include sub (white, white);
+
+}
+.col-md-4{
+	text-align:center;
+	padding: 2% 7%;
+	img {
+		background-image: url("../img/icon-bg.png");
+	    padding: 10px;
+	    background-size: 100%;
+	    background-color: #2C3E50;
+	}
+}
+div .col-md-12 p{
+	margin-bottom: 5%;
+}
+div .col-md-4 p{
+	color:$grisazul;
+	margin-top: 12%;
+}
+div .col-md-4:hover{
+	background-color: #588C73;
+	h3{
+		border-bottom: 1px solid white;
+	}
+	p{
+		color:white;
+	}
+	img{
+		background-color: #CD9554;
+		-webkit-transform:rotate(50deg);
+	}
+}
+#sect-1b{
+	.col-md-3{
+	  padding: 0px 33px 60px;
+      text-align: center;
+      margin: 0 auto;
+      color:$grisazul;
+    img{
+      	 width: 70%;
+      }
+    h3{
+      	color: white;
+      }
+    .style-line2 {
+    	height: 12px;
+    	border: 0;
+    	box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+	}
+    a{
+      font-size: 20px;
+      margin: 0 10px 0 0;
+      color:$grisazul;
+      }
+	}
+}
+
+/*.................................................BEST PRICE.................................................*/
+#bg-blue{
+	padding-top: 8%;
+	color:white;
+    text-align: center;
+    background: #2C3E50;
+ 	@include sub (white, white);
+    .col-md-3{
+    	padding-top: 50px;
+    }
+}
+/*..........................................las cajas de los precios.............................................*/
+.box-list{
+    ul{
+          li{
+          	&:first-child{
+          	  padding: 20px;
+              background: #8F5F38;
+                  font-size: 22px;
+          	}
+          }
+          li{
+          	&:nth-child(2){
+          	  background: #27AD60;
+              padding: 30px;
+              span{
+              	    font-size: 44px;
+              }
+          	}
+          }
+          li{
+          	&:nth-child(3){
+          	   background: #8F5F38;
+
+          	}
+          }
+          li{
+          	&:nth-child(4){
+          	   color:#70798E;
+          	}
+          }
+          li{
+          	&:nth-child(5){
+          	   background:#8F5F38;
+          	}
+          }
+          li{
+          	&:nth-child(6){
+          	   color:#70798E;
+          	}
+          }
+          li{
+          	&:nth-child(7){
+          	   background:#8F5F38;
+          	}
+          }
+          li{
+          	&:nth-child(8){
+          	   color:#70798E;
+          	}
+          }
+          li{
+          	&:last-child{
+          	   background: #2C3E50;
+          	}
+          }
+    }
+}
+.box-list2{
+	ul{
+          li{
+          	&:first-child{
+          	  padding: 20px;
+              background: #2C3E50;
+                  font-size: 22px;
+          	}
+          }
+          li{
+          	&:nth-child(2){
+          	  background: #27AD60;
+              padding: 30px;
+              span{
+              	    font-size: 44px;
+              }
+          	}
+          }
+          li{
+          	&:nth-child(3){
+          	   background: #2C3E50;
+
+          	}
+          }
+          li{
+          	&:nth-child(4){
+          	   color:#70798E;
+          	}
+          }
+          li{
+          	&:nth-child(5){
+          	   background:#2C3E50;
+          	}
+          }
+          li{
+          	&:nth-child(6){
+          	   color:#70798E;
+          	}
+          }
+          li{
+          	&:nth-child(7){
+          	   background: #2C3E50;
+          	}
+          }
+          li{
+          	&:nth-child(8){
+          	   color:#70798E;
+          	}
+          }
+          li{
+          	&:last-child{
+          	   background: #2C3E50;
+          	}
+          }
+    }
+}
+.box-list3{
+	ul{
+          li{
+          	&:first-child{
+          	  padding: 20px;
+              background: #2C3E50;
+                  font-size: 22px;
+          	}
+          }
+          li{
+          	&:nth-child(2){
+          	  background: #27AD60;
+              padding: 30px;
+              span{
+              	    font-size: 44px;
+              }
+          	}
+          }
+          li{
+          	&:nth-child(3){
+          	   background: #2C3E50;
+
+          	}
+          }
+          li{
+          	&:nth-child(4){
+          	   color:#70798E;
+          	}
+          }
+          li{
+          	&:nth-child(5){
+          	   background:#2C3E50;
+          	}
+          }
+          li{
+          	&:nth-child(6){
+          	   color:#70798E;
+          	}
+          }
+          li{
+          	&:nth-child(7){
+          	   background:#2C3E50;
+          	}
+          }
+          li{
+          	&:nth-child(8){
+          	   color:#70798E;
+          	}
+          }
+          li{
+          	&:last-child{
+          	   background: #2C3E50;
+          	}
+          }
+
+        }
+	}
+.box-list4{
+	ul{
+          li{
+          	&:first-child{
+          	  padding: 20px;
+              background: #2C3E50;
+              font-size: 22px;
+          	}
+          }
+          li{
+          	&:nth-child(2){
+          	  background: #27AD60;
+              padding: 30px;
+              span{
+              	    font-size: 44px;
+              }
+          	}
+          }
+          li{
+          	&:nth-child(3){
+          	   background: #2C3E50;
+
+          	}
+          }
+          li{
+          	&:nth-child(4){
+          	   color:#70798E;
+          	}
+          }
+          li{
+          	&:nth-child(5){
+          	   background:#2C3E50;
+          	}
+          }
+          li{
+          	&:nth-child(6){
+          	   color:#70798E;
+          	}
+          }
+          li{
+          	&:nth-child(7){
+          	   background:#2C3E50;
+          	}
+          }
+          li{
+          	&:nth-child(8){
+          	   color: #70798E;
+          	}
+          }
+          li{
+          	&:last-child{
+          	   background: #2C3E50;
+          	}
+          }
+    }
+}
+li button{
+	background: #555555 !important;
+	border: none !important;
+	color: white !important;
+}
+.box-list:hover {
+	@include boxs (orange)
+}
+.box-list2:hover{
+	@include boxs (orange)
+}
+.box-list3:hover{
+	@include boxs (orange)
+}
+.box-list4:hover{
+	@include boxs (orange)
+}
+
+#bg-blue {
+	.col-sm-12 {
+		color: $grisazul;
+		}
+	p span {
+		color: red;
+	}
+ 	.col-md-12 p{
+	color: $grisazul;
+	}
+}
+
+/*..........................................................................................................*/
+/*.....................................FORMULARIO...........................................*/
+
+#forms{
+	padding-top: 5%;
+	background-color:#2C3E50;
+	@include sub (white, white);
+
+	p{
+		color:white;
+	}
+	button{
+	@include boton (3% 0 0 -15%);
+	padding: 2%;
+	font-size: 18px;
+	}
+	span{
+		color:$grisazul;
+		margin-left: -76% !important;
+		display: inline-block;
+		margin-bottom: 8%;
+	}
+}
+.box-form{
+	margin: 5% 12%;
+	padding-left: 11%;
+}
+.text-area{
+	width: 79%;
+	margin-top: 9%;
+	margin-left: 2%;
+}
+/*...........................................BG-IMAGEN............................................*/
+#bg-img{
+	background: url(../img/img-divider-img.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:450px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+	a{
+	  font-size: 100px;
+      margin: 0 5px;
+	}
+}
+/*................................................FOOTER...............................................*/
+footer{
+	.input-group-btn{
+		.btn{
+          margin-top: 0;
+		}
+		i{
+			color: orange;
+		}
+	}
+	.col-md-4{
+		text-align: left;
+		h3{
+			text-align: center;
+		}
+	}
+	.copyright{
+		p{
+			display: inline-block;
+		}
+	}
+}
+
+@media screen and (max-width : 768px) {
+	#banner {
+		background-image: url(../img/carousel-bg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	#palette {
+	h1{
+		font-size: 3em;
+		font-family: 'Roboto';
+    	font-weight: 300;
+    	text-align: center;
+		}	
+}
+	.text-area{
+		width: 92%;
+		margin-top: 9%;
+		margin-left: 4%;
+	}
+	#forms{
+	button{
+	margin: 3% 0 0 3%;
+	}
+}
+}

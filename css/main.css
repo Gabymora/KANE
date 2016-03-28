@@ -1,0 +1,738 @@
+* {
+  font-family: 'Roboto', serif; }
+
+/*UTILITIES*/
+.mgb-10 {
+  margin-bottom: 10%; }
+
+.mgb-2 {
+  margin-bottom: 2%; }
+
+.mgt-2 {
+  margin-top: 2%; }
+
+.blak {
+  color: black; }
+
+/*........................................MIXIN..........................................*/
+/* ------------------------------barra de navegacion-------------------------- */
+.text-white {
+  color: white !important; }
+
+.bg-verde {
+  background-color: #27AD60; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: green !important; }
+
+.navbar-nav {
+  margin-top: 1em !important; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #C9C9C9 !important; }
+
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: green !important; }
+
+/*-------------------------------------------------------------------------------*/
+#banner {
+  background-image: url(../img/carousel-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 -120px; }
+
+.cuad {
+  text-align: center;
+  color: white;
+  margin: 5% 5%; }
+  .cuad h1 {
+    font-size: 5em;
+    font-family: 'Roboto';
+    font-weight: 400; }
+  .cuad h2 {
+    font-size: 2em;
+    font-family: 'Roboto';
+    font-weight: 300; }
+
+#palette {
+  /*tamanio de texto y linea bajo los subtitulos*/ }
+  #palette h1 {
+    font-size: 4em;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-align: center;
+    color: black; }
+  #palette .style-line {
+    height: 30px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width: 30%; }
+  #palette .style-line:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 0 0 1px 0;
+    border-radius: 20px; }
+  #palette .c1 {
+    /*para hacer los cuadros de colores*/
+    display: inline-block;
+    width: 14%;
+    height: 150px;
+    margin-left: -1%;
+    background-color: #69D2E7;
+    text-align: center;
+    overflow: hidden; }
+  #palette .c2 {
+    /*para hacer los cuadros de colores*/
+    display: inline-block;
+    width: 14%;
+    height: 150px;
+    margin-left: -1%;
+    background-color: #A7DBDB;
+    text-align: center;
+    overflow: hidden; }
+  #palette .c3 {
+    /*para hacer los cuadros de colores*/
+    display: inline-block;
+    width: 14%;
+    height: 150px;
+    margin-left: -1%;
+    background-color: #E0E4CC;
+    text-align: center;
+    overflow: hidden; }
+  #palette .c4 {
+    /*para hacer los cuadros de colores*/
+    display: inline-block;
+    width: 14%;
+    height: 150px;
+    margin-left: -1%;
+    background-color: #f38630;
+    text-align: center;
+    overflow: hidden; }
+  #palette .c5 {
+    /*para hacer los cuadros de colores*/
+    display: inline-block;
+    width: 14%;
+    height: 150px;
+    margin-left: -1%;
+    background-color: #FA6900;
+    text-align: center;
+    overflow: hidden; }
+
+#palette {
+  /*tamanio de texto y linea bajo los subtitulos*/ }
+  #palette h1 {
+    font-size: 4em;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-align: center;
+    color: black; }
+  #palette .style-line {
+    height: 30px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width: 30%; }
+  #palette .style-line:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 0 0 1px 0;
+    border-radius: 20px; }
+  #palette .c6 {
+    /*para hacer los cuadros de colores*/
+    display: inline-block;
+    width: 14%;
+    height: 150px;
+    margin-left: -1%;
+    background-color: #E94C6F;
+    text-align: center;
+    overflow: hidden; }
+  #palette .c7 {
+    /*para hacer los cuadros de colores*/
+    display: inline-block;
+    width: 14%;
+    height: 150px;
+    margin-left: -1%;
+    background-color: #542733;
+    text-align: center;
+    overflow: hidden; }
+  #palette .c8 {
+    /*para hacer los cuadros de colores*/
+    display: inline-block;
+    width: 14%;
+    height: 150px;
+    margin-left: -1%;
+    background-color: #546A62;
+    text-align: center;
+    overflow: hidden; }
+  #palette .c9 {
+    /*para hacer los cuadros de colores*/
+    display: inline-block;
+    width: 14%;
+    height: 150px;
+    margin-left: -1%;
+    background-color: #C6D5CD;
+    text-align: center;
+    overflow: hidden; }
+  #palette .c0 {
+    /*para hacer los cuadros de colores*/
+    display: inline-block;
+    width: 14%;
+    height: 150px;
+    margin-left: -1%;
+    background-color: #FDF200;
+    text-align: center;
+    overflow: hidden; }
+
+#palette {
+  /*tamanio de texto y linea bajo los subtitulos*/ }
+  #palette h1 {
+    font-size: 4em;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-align: center;
+    color: black; }
+  #palette .style-line {
+    height: 30px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width: 30%; }
+  #palette .style-line:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 0 0 1px 0;
+    border-radius: 20px; }
+  #palette .c11 {
+    /*para hacer los cuadros de colores*/
+    display: inline-block;
+    width: 14%;
+    height: 150px;
+    margin-left: -1%;
+    background-color: #DB3340;
+    text-align: center;
+    overflow: hidden; }
+  #palette .c12 {
+    /*para hacer los cuadros de colores*/
+    display: inline-block;
+    width: 14%;
+    height: 150px;
+    margin-left: -1%;
+    background-color: #E8B71A;
+    text-align: center;
+    overflow: hidden; }
+  #palette .c13 {
+    /*para hacer los cuadros de colores*/
+    display: inline-block;
+    width: 14%;
+    height: 150px;
+    margin-left: -1%;
+    background-color: #F7EAC8;
+    text-align: center;
+    overflow: hidden; }
+  #palette .c14 {
+    /*para hacer los cuadros de colores*/
+    display: inline-block;
+    width: 14%;
+    height: 150px;
+    margin-left: -1%;
+    background-color: #1FDA9A;
+    text-align: center;
+    overflow: hidden; }
+  #palette .c15 {
+    /*para hacer los cuadros de colores*/
+    display: inline-block;
+    width: 14%;
+    height: 150px;
+    margin-left: -1%;
+    background-color: #28ABE3;
+    text-align: center;
+    overflow: hidden; }
+
+#palette .c16 {
+  /*para hacer los cuadros de colores*/
+  display: inline-block;
+  width: 14%;
+  height: 150px;
+  margin-left: -1%;
+  background-color: #588C73;
+  text-align: center;
+  overflow: hidden; }
+#palette .c17 {
+  /*para hacer los cuadros de colores*/
+  display: inline-block;
+  width: 14%;
+  height: 150px;
+  margin-left: -1%;
+  background-color: #F2E394;
+  text-align: center;
+  overflow: hidden; }
+#palette .c18 {
+  /*para hacer los cuadros de colores*/
+  display: inline-block;
+  width: 14%;
+  height: 150px;
+  margin-left: -1%;
+  background-color: #F2AE72;
+  text-align: center;
+  overflow: hidden; }
+#palette .c19 {
+  /*para hacer los cuadros de colores*/
+  display: inline-block;
+  width: 14%;
+  height: 150px;
+  margin-left: -1%;
+  background-color: #D96459;
+  text-align: center;
+  overflow: hidden; }
+#palette .c20 {
+  /*para hacer los cuadros de colores*/
+  display: inline-block;
+  width: 14%;
+  height: 150px;
+  margin-left: -1%;
+  background-color: #8C4646;
+  text-align: center;
+  overflow: hidden; }
+
+#palette .c21 {
+  /*para hacer los cuadros de colores*/
+  display: inline-block;
+  width: 14%;
+  height: 150px;
+  margin-left: -1%;
+  background-color: #D0C91F;
+  text-align: center;
+  overflow: hidden; }
+#palette .c22 {
+  /*para hacer los cuadros de colores*/
+  display: inline-block;
+  width: 14%;
+  height: 150px;
+  margin-left: -1%;
+  background-color: #85C4B9;
+  text-align: center;
+  overflow: hidden; }
+#palette .c23 {
+  /*para hacer los cuadros de colores*/
+  display: inline-block;
+  width: 14%;
+  height: 150px;
+  margin-left: -1%;
+  background-color: #008BBA;
+  text-align: center;
+  overflow: hidden; }
+#palette .c24 {
+  /*para hacer los cuadros de colores*/
+  display: inline-block;
+  width: 14%;
+  height: 150px;
+  margin-left: -1%;
+  background-color: #DF514C;
+  text-align: center;
+  overflow: hidden; }
+#palette .c25 {
+  /*para hacer los cuadros de colores*/
+  display: inline-block;
+  width: 14%;
+  height: 150px;
+  margin-left: -1%;
+  background-color: #DC403B;
+  text-align: center;
+  overflow: hidden; }
+
+/*.....................................................ABOUT US.................................*/
+#about-us {
+  background-color: #2C3E50;
+  color: white;
+  padding: 70px 0;
+  /*tamanio de texto y linea bajo los subtitulos*/ }
+  #about-us h1 {
+    font-size: 4em;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-align: center;
+    color: white; }
+  #about-us .style-line {
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width: 30%; }
+  #about-us .style-line:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 1px 0;
+    border-radius: 20px; }
+
+.block-bar {
+  padding: 45px 9px; }
+  .block-bar .progress {
+    height: 15px;
+    border-radius: 0;
+    border: solid white;
+    margin-bottom: 10px; }
+    .block-bar .progress p {
+      margin-bottom: 15px; }
+  .block-bar .progress-bar {
+    background-color: #E67E22; }
+
+.block-image {
+  padding: 40px 55px; }
+  .block-image .bars {
+    padding-top: 50px; }
+
+/*.......................................................WHAT WE DO..................................*/
+.bg-green {
+  background-color: #27AD60;
+  color: white; }
+
+#sect-1a, #sect-1b {
+  text-align: center;
+  padding: 70px 0;
+  /*tamanio de texto y linea bajo los subtitulos*/ }
+  #sect-1a h1, #sect-1b h1 {
+    font-size: 4em;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-align: center;
+    color: white; }
+  #sect-1a .style-line, #sect-1b .style-line {
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width: 30%; }
+  #sect-1a .style-line:before, #sect-1b .style-line:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 1px 0;
+    border-radius: 20px; }
+
+.col-md-4 {
+  text-align: center;
+  padding: 2% 7%; }
+  .col-md-4 img {
+    background-image: url("../img/icon-bg.png");
+    padding: 10px;
+    background-size: 100%;
+    background-color: #2C3E50; }
+
+div .col-md-12 p {
+  margin-bottom: 5%; }
+
+div .col-md-4 p {
+  color: #5D6672;
+  margin-top: 12%; }
+
+div .col-md-4:hover {
+  background-color: #588C73; }
+  div .col-md-4:hover h3 {
+    border-bottom: 1px solid white; }
+  div .col-md-4:hover p {
+    color: white; }
+  div .col-md-4:hover img {
+    background-color: #CD9554;
+    -webkit-transform: rotate(50deg); }
+
+#sect-1b .col-md-3 {
+  padding: 0px 33px 60px;
+  text-align: center;
+  margin: 0 auto;
+  color: #5D6672; }
+  #sect-1b .col-md-3 img {
+    width: 70%; }
+  #sect-1b .col-md-3 h3 {
+    color: white; }
+  #sect-1b .col-md-3 .style-line2 {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5); }
+  #sect-1b .col-md-3 a {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+    color: #5D6672; }
+
+/*.................................................BEST PRICE.................................................*/
+#bg-blue {
+  padding-top: 8%;
+  color: white;
+  text-align: center;
+  background: #2C3E50;
+  /*tamanio de texto y linea bajo los subtitulos*/ }
+  #bg-blue h1 {
+    font-size: 4em;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-align: center;
+    color: white; }
+  #bg-blue .style-line {
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width: 30%; }
+  #bg-blue .style-line:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 1px 0;
+    border-radius: 20px; }
+  #bg-blue .col-md-3 {
+    padding-top: 50px; }
+
+/*..........................................las cajas de los precios.............................................*/
+.box-list ul li:first-child {
+  padding: 20px;
+  background: #8F5F38;
+  font-size: 22px; }
+.box-list ul li:nth-child(2) {
+  background: #27AD60;
+  padding: 30px; }
+  .box-list ul li:nth-child(2) span {
+    font-size: 44px; }
+.box-list ul li:nth-child(3) {
+  background: #8F5F38; }
+.box-list ul li:nth-child(4) {
+  color: #70798E; }
+.box-list ul li:nth-child(5) {
+  background: #8F5F38; }
+.box-list ul li:nth-child(6) {
+  color: #70798E; }
+.box-list ul li:nth-child(7) {
+  background: #8F5F38; }
+.box-list ul li:nth-child(8) {
+  color: #70798E; }
+.box-list ul li:last-child {
+  background: #2C3E50; }
+
+.box-list2 ul li:first-child {
+  padding: 20px;
+  background: #2C3E50;
+  font-size: 22px; }
+.box-list2 ul li:nth-child(2) {
+  background: #27AD60;
+  padding: 30px; }
+  .box-list2 ul li:nth-child(2) span {
+    font-size: 44px; }
+.box-list2 ul li:nth-child(3) {
+  background: #2C3E50; }
+.box-list2 ul li:nth-child(4) {
+  color: #70798E; }
+.box-list2 ul li:nth-child(5) {
+  background: #2C3E50; }
+.box-list2 ul li:nth-child(6) {
+  color: #70798E; }
+.box-list2 ul li:nth-child(7) {
+  background: #2C3E50; }
+.box-list2 ul li:nth-child(8) {
+  color: #70798E; }
+.box-list2 ul li:last-child {
+  background: #2C3E50; }
+
+.box-list3 ul li:first-child {
+  padding: 20px;
+  background: #2C3E50;
+  font-size: 22px; }
+.box-list3 ul li:nth-child(2) {
+  background: #27AD60;
+  padding: 30px; }
+  .box-list3 ul li:nth-child(2) span {
+    font-size: 44px; }
+.box-list3 ul li:nth-child(3) {
+  background: #2C3E50; }
+.box-list3 ul li:nth-child(4) {
+  color: #70798E; }
+.box-list3 ul li:nth-child(5) {
+  background: #2C3E50; }
+.box-list3 ul li:nth-child(6) {
+  color: #70798E; }
+.box-list3 ul li:nth-child(7) {
+  background: #2C3E50; }
+.box-list3 ul li:nth-child(8) {
+  color: #70798E; }
+.box-list3 ul li:last-child {
+  background: #2C3E50; }
+
+.box-list4 ul li:first-child {
+  padding: 20px;
+  background: #2C3E50;
+  font-size: 22px; }
+.box-list4 ul li:nth-child(2) {
+  background: #27AD60;
+  padding: 30px; }
+  .box-list4 ul li:nth-child(2) span {
+    font-size: 44px; }
+.box-list4 ul li:nth-child(3) {
+  background: #2C3E50; }
+.box-list4 ul li:nth-child(4) {
+  color: #70798E; }
+.box-list4 ul li:nth-child(5) {
+  background: #2C3E50; }
+.box-list4 ul li:nth-child(6) {
+  color: #70798E; }
+.box-list4 ul li:nth-child(7) {
+  background: #2C3E50; }
+.box-list4 ul li:nth-child(8) {
+  color: #70798E; }
+.box-list4 ul li:last-child {
+  background: #2C3E50; }
+
+li button {
+  background: #555555 !important;
+  border: none !important;
+  color: white !important; }
+
+.box-list:hover {
+  border: 2px solid orange;
+  margin-top: -15%; }
+
+.box-list2:hover {
+  border: 2px solid orange;
+  margin-top: -15%; }
+
+.box-list3:hover {
+  border: 2px solid orange;
+  margin-top: -15%; }
+
+.box-list4:hover {
+  border: 2px solid orange;
+  margin-top: -15%; }
+
+#bg-blue .col-sm-12 {
+  color: #5D6672; }
+#bg-blue p span {
+  color: red; }
+#bg-blue .col-md-12 p {
+  color: #5D6672; }
+
+/*..........................................................................................................*/
+/*.....................................FORMULARIO...........................................*/
+#forms {
+  padding-top: 5%;
+  background-color: #2C3E50;
+  /*tamanio de texto y linea bajo los subtitulos*/ }
+  #forms h1 {
+    font-size: 4em;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-align: center;
+    color: white; }
+  #forms .style-line {
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width: 30%; }
+  #forms .style-line:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 1px 0;
+    border-radius: 20px; }
+  #forms p {
+    color: white; }
+  #forms button {
+    background: #555555 !important;
+    border: none !important;
+    color: white !important;
+    margin: 3% 0 0 -15%;
+    padding: 2%;
+    font-size: 18px; }
+  #forms span {
+    color: #5D6672;
+    margin-left: -76% !important;
+    display: inline-block;
+    margin-bottom: 8%; }
+
+.box-form {
+  margin: 5% 12%;
+  padding-left: 11%; }
+
+.text-area {
+  width: 79%;
+  margin-top: 9%;
+  margin-left: 2%; }
+
+/*...........................................BG-IMAGEN............................................*/
+#bg-img {
+  background: url(../img/img-divider-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  text-align: center; }
+  #bg-img a {
+    font-size: 100px;
+    margin: 0 5px; }
+
+/*................................................FOOTER...............................................*/
+footer .input-group-btn .btn {
+  margin-top: 0; }
+footer .input-group-btn i {
+  color: orange; }
+footer .col-md-4 {
+  text-align: left; }
+  footer .col-md-4 h3 {
+    text-align: center; }
+footer .copyright p {
+  display: inline-block; }
+
+@media screen and (max-width: 768px) {
+  #banner {
+    background-image: url(../img/carousel-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+
+  #palette h1 {
+    font-size: 3em;
+    font-family: 'Roboto';
+    font-weight: 300;
+    text-align: center; }
+
+  .text-area {
+    width: 92%;
+    margin-top: 9%;
+    margin-left: 4%; }
+
+  #forms button {
+    margin: 3% 0 0 3%; } }
+
+/*# sourceMappingURL=main.css.map */
