@@ -230,9 +230,13 @@ $grisazul: #5D6672;
     }
 }
 /*.......................................................WHAT WE DO..................................*/
-.bg-green{
-	background-color:#27AD60;
+#bg-green{
+	background-color: #27AD60;
 	color:white;
+}
+.bg-green{
+  background-color: #27AD60;
+  color:white;
 }
 #sect-1a, #sect-1b{
 	text-align: center;
@@ -537,6 +541,7 @@ li button{
 	border: none !important;
 	color: white !important;
 }
+
 .box-list:hover {
 	@include boxs (orange)
 }
@@ -555,7 +560,8 @@ li button{
 		color: $grisazul;
 		}
 	p span {
-		color: red;
+		color: orange;
+    font-size: 15px;
 	}
  	.col-md-12 p{
 	color: $grisazul;
@@ -630,7 +636,7 @@ footer{
 		}
 	}
 }
-
+/*.........................................PARTE RESPONSIVE.............................................*/
 @media screen and (max-width : 768px) {
 	#banner {
 		background-image: url(../img/carousel-bg.jpg);

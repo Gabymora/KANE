@@ -405,6 +405,10 @@
     padding-top: 50px; }
 
 /*.......................................................WHAT WE DO..................................*/
+#bg-green {
+  background-color: #27AD60;
+  color: white; }
+
 .bg-green {
   background-color: #27AD60;
   color: white; }
@@ -633,7 +637,8 @@ li button {
 #bg-blue .col-sm-12 {
   color: #5D6672; }
 #bg-blue p span {
-  color: red; }
+  color: orange;
+  font-size: 15px; }
 #bg-blue .col-md-12 p {
   color: #5D6672; }
 
@@ -714,6 +719,7 @@ footer .col-md-4 {
 footer .copyright p {
   display: inline-block; }
 
+/*.........................................PARTE RESPONSIVE.............................................*/
 @media screen and (max-width: 768px) {
   #banner {
     background-image: url(../img/carousel-bg.jpg);
